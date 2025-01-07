@@ -5,6 +5,9 @@ members = [
     "day*",
 ]
 
+[workspace.dependencies]
+itertools = "0.14"
+
 [workspace.lints.rust]
 unsafe_code = "forbid"
 
